@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+// Create a client instance
+client = new Paho.MQTT.Client("wss://broker.mqttdashboard.com:8000/mqtt", "G17_123");
+
+>>>>>>> b3713eae026d55a073e9b88825d30ac65ecb9a19
 
 
 const CHANNEL_ID = 'UscnU30egG9jGkgR';
