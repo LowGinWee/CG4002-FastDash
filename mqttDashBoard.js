@@ -1,5 +1,5 @@
 // Create a client instance
-client = new Paho.MQTT.Client("broker.mqttdashboard.com", Number(8000), "G17_123");
+client = new Paho.MQTT.Client("wss://broker.mqttdashboard.com", Number(8000), "G17_123");
 
 // set callback handlers
 client.onConnectionLost = onConnectionLost;
